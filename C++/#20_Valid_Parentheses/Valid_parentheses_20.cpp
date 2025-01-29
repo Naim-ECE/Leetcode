@@ -53,7 +53,7 @@ int main() {
     //     if(s[i] == '(' || s[i] == '{' || s[i] == '[') {
     //         vs[pos++].push_back(s[i]);
     //     }
-    // }
+    // } //failed test case ({})[]
     
     bool ret = Solution().isValid(s);
     if(ret == true) {
